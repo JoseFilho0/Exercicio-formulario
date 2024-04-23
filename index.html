@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+</head>
+<body>
+    <div>
+        <h1>Formulário</h1>
+
+        <form action="" method="post">
+            <label>
+                <strong>Nome:</strong> <br>
+                <input type="text" name="nome" placeholder="Digite seu nome" required> <br>
+            </label>
+            <label>
+                <strong>Sobrenome:</strong> <br>
+                <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required> <br>
+            </label>
+            <label>
+                <strong>Data de nascimento:</strong> <br>
+                <input type="date" name="idade" required> <br>
+            </label>
+            <label>
+                <strong>Qual o seu sexo:</strong> <br>
+                <input type="radio" name="sexo">
+                Masculino <br>
+                <input type="radio" name="sexo">
+                Feminino <br>
+                <input type="radio" name="sexo">
+                Prefiro não dizer <br>
+                <input type="radio" name="sexo">
+                Outro <br>
+            </label>
+            <label>
+                <strong>Digite seu E-mail:</strong> <br>
+                <input type="email" name="email" placeholder="E-mail" required> <br>
+            </label>
+            <label>
+                <strong>Qual é a sua profissão:</strong> <br>
+                <input type="text" name="job" placeholder="Digite sua profissão"> <br>
+            </label>
+            <label>
+                <strong>Você está satisfeito com seu trabalho atual?</strong> <br>
+                <input type="radio" name="satisfeito">
+                Sim
+                <input type="radio" name="satisfeito"> 
+                Não
+                <input type="radio" name="satisfeito">
+                Dá pra melhorar <br>
+            </label>
+            <label>
+                <strong>Algo que queira acrescentar:</strong> <br>
+                <textarea name="descricao" placeholder="Digite aqui algo que queira acrescentar"></textarea>
+            </label>
+            <button><a href="./teste.html">Enviar</a></button>
+        </form>
+    </div>
+</body>
+</html>

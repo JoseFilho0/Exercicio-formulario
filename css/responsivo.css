@@ -1,0 +1,30 @@
+@media (max-width: 605px) {
+    body {
+        width: 450px;
+        margin: 10px auto 0px auto;
+    }
+    input[type=text], [type=email], [type=date], textarea {
+        width: 407px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 320px;
+        margin: 5px auto 0px auto;
+    }
+    input[type=text], [type=email], [type=date], textarea {
+        width: 277px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    body {
+        width: 280px;
+        margin: 4px auto 0px auto;
+    }
+    input[type=text], [type=email], [type=date], textarea {
+        width: 237px;
+    }
+}
